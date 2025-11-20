@@ -1,0 +1,40 @@
+{
+  "name": "async-minikit",
+  "version": "1.0.0",
+  "description": "A tiny zero-dependency async toolkit for Node.js and browsers. Includes sleep, sleepUntil, retry, timeout, debounceAsync, and throttleAsync.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "async",
+    "sleep",
+    "retry",
+    "debounce",
+    "throttle",
+    "timeout",
+    "await",
+    "utility",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "prettier": "^3.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
