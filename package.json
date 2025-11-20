@@ -1,6 +1,6 @@
 {
   "name": "async-minikit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny zero-dependency async toolkit for Node.js and browsers. Includes sleep, sleepUntil, retry, timeout, debounceAsync, and throttleAsync.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
